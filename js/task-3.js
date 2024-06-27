@@ -4,10 +4,10 @@ const sortByDescendingFriendCount = (users) => users.toSorted((moreFriends, less
 
 console.log(
   sortByDescendingFriendCount([
-    {        name: "Moore Hensley",
+    {       name: "Moore Hensley",
             friends: ["Sharron Pace"],
             gender: "male"},
-    {         name: "Sharlene Bush",
+    {       name: "Sharlene Bush",
             friends: ["Briana Decker", "Sharron Pace"],
             gender: "female"},
     {       name: "Ross Vazquez",
